@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cadastro de alunos</h1>
+    <form action="" id="cadastro-alunos">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" placeholder="Digite o nome:"> 
+        <br>
+        <label for="turma">Turma:</label>
+        <input type="text" name="turma" id="turma" placeholder="Digite a turma:">
+        <br>
+        <label for="matricula">matricula:</label>
+        <input type="number" name="matricula" id="matricula" placeholder="Digite o matricula:">
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <h1>Atualização de alunos</h1>
+    <form action="" id="atualizar-alunos">
+        <label for="idAluno">Id:</label>
+        <input type="text" name="idAluno" id="idAluno" placeholder="Digite o nome:" required> 
+        <br>
+        <label for="nomeAtualizado">Nome:</label>
+        <input type="text" name="nomeAtualizado" id="nomeAtualizado" placeholder="Digite o nome:"> 
+        <br>
+        <label for="turmaAtualizada">Turma:</label>
+        <input type="text" name="turmaAtualizada" id="turmaAtualizada" placeholder="Digite a turma:">
+        <br>
+        <label for="matriculaAtualizada">matricula:</label>
+        <input type="number" name="matriculaAtualizada" id="matriculaAtualizada" placeholder="Digite o matricula:">
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <h1>Deletar aluno</h1>
+    <form action="" id="deletar-aluno">
+        <label for="idAlunoDeletado">Id:</label>
+        <input type="text" name="idAlunoDelatdo" id="idAlunoDeletado" placeholder="Digite o nome:" required> 
+        <button type="submit">Enviar</button>
+    </form>
+
+
+    <h1>Exibir alunos</h1>
+    <button id="exibir-alunos">Exibir Alunos</button>
+    <p id="carregando"></p>
+    <ul id="lista-alunos">
+
+    </ul>
+    <script src="script.js"></script>
+</body>
+</html>

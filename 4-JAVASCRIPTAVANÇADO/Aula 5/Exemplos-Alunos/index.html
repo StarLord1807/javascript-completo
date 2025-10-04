@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #loading{
+            display: none;
+        }
+
+        .aluno{
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lista de alunos</h1>
+    <button id="btnListar">Listar alunos</button>
+    <h2 id="loading">⌛ Loading...</h2>
+    <ul id="listaAlunos"></ul>
+
+    <input type="text" placeholder="Digite o id do aluno:" id="idAluno">
+    <button id="btnBuscarAluno">Buscar aluno</button>
+    <script src="script.js"></script>
+    <p id="alunoEncontrado"></p>
+</body>
+</html>
